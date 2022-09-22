@@ -1,5 +1,5 @@
 {
-  "name": "NuxtJS-SwiperJs8",
+  "name": "movies-box",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,13 @@
     "lint": "npm run lint:js && npm run lint:style"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^2.0.8",
     "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
@@ -23,7 +29,7 @@
     "@nuxtjs/eslint-config": "^9.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/stylelint-module": "^4.0.0",
-    "@nuxtjs/tailwindcss": "^5.0.3",
+    "@nuxtjs/tailwindcss": "5.0.*",
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^3.2.0",
