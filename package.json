@@ -22,7 +22,8 @@
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
-    "swiper": "^8.1.4"
+    "swiper": "^8.1.4",
+    "vue-ellipse-progress": "^1.3.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
@@ -41,6 +42,7 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-config-standard": "^25.0.0",
-    "stylelint-prettier": "^2.0.0"
+    "stylelint-prettier": "^2.0.0",
+    "tailwind-scrollbar": "^2.0.1"
   }
 }

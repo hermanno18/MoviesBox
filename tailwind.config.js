@@ -1,3 +1,4 @@
+const themeConfig = require('./themeConfig');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -12,10 +13,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary': '#e50914', // rouge
-        'secondary': '#141414',
+        'primary': themeConfig.colors.primary, // rouge
+        'secondary': themeConfig.colors.secondary,
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')({ nocompatible: true })
+  ],
 }
